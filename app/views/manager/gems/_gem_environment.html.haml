@@ -1,0 +1,19 @@
+.container
+  %h3.title
+    %span.diamond
+      %i.fa.fa-diamond
+    Gem Environment
+  %hr
+  - info.each do |k, v|
+    %br
+    .row
+      .col-lg-4
+        = k
+      - if v.is_a? Array
+        .col-lg-8.values
+          - v.each do |i|
+            = i
+            %br
+      - else
+        .col-lg-8.values
+          = v

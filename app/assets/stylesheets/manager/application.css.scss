@@ -1,0 +1,43 @@
+@import "bootstrap";
+@import "font-awesome.min.css";
+.sidebar {
+  position: fixed;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  background-color: #e9573f;
+  ul{
+    margin-top: 10px;
+    padding-left: 0px !important;
+  }
+  li {
+    padding: 5px;
+    color: #fff;
+    list-style-type: none;
+    cursor: pointer;
+    cursor: hand;
+  }
+  li:hover{
+    color: #fff;
+    background-color: rgba(238, 238, 238, 0.2);
+  }
+}
+
+.content {
+  position: absolute;
+  left: 250px;
+  width: calc(100% - 250px);
+  height: 100%;
+  overflow-y: scroll;
+  padding-top: 10px;
+}
+.header {
+
+}
+.title{
+  color: #e9573f !important;
+}
+
+.values {
+  color: #808080 !important;
+}
