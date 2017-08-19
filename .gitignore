@@ -45,5 +45,6 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 
-# Ignore Test dummy cache
-/test/dummy/tmp/cache
+# Ignore Test dummy
+/test/dummy/tmp
+/test/dummy/log
