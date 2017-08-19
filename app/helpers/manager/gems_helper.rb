@@ -15,6 +15,10 @@ module Manager
       info
     end
 
+    def manager_version
+      Manager::VERSION
+    end
+
     private
       def clean_line(line)
         line.gsub!('-', '')

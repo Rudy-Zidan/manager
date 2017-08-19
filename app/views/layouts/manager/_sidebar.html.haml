@@ -1,6 +1,7 @@
 .sidebar
-  %ul
-    %li
-      %span
-        %i.fa.fa-diamond 
-      Gem Environment
+  = link_to manager_url do
+    %span
+      %i.fa.fa-diamond
+    Manager
+  %hr
+  = link_to 'Gems environment', gem_environment_url

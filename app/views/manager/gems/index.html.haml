@@ -1,2 +1,10 @@
 .container
-  = render 'gem_environment', info: @info
+  .welcome
+    %center
+      %i.fa.fa-diamond
+    %br
+    %p Hello developer, start manage your rails project from the sidebar menu.
+    %p Happy coding :)
+    %p.version
+      %span v
+      = manager_version

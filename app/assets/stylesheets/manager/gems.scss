@@ -2,3 +2,27 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+
+.welcome {
+  position:absolute;
+  color:#fff;
+  top:40%;
+  left:50%;
+  padding:15px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  i {
+    color: #e9573f;
+    font-size: 120px;
+    font-weight: normal;
+  }
+  p {
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+  }
+  .version {
+    color: #808080;
+  }
+}
