@@ -21,6 +21,14 @@ Or install it yourself as:
 $ gem install manager
 ```
 
+And then open in your browser:
+http://localhost:3000/manager
+it should show your manager, please note you need to start your project server
+using:
+```bash
+$ rails s
+```
+
 ## Contributing
 Contribution directions go here.
 
