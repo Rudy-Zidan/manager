@@ -1,5 +1,5 @@
 # Manager
-Short description and motivation.
+Rails project manager controlling, searching and install gems, also show db migrations timeline which one has been executed and other migrations need to be executed.
 
 ## Usage
 How to use my plugin.
